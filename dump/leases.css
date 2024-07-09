@@ -1,0 +1,115 @@
+/* LEASE DASHBOARD */
+
+@font-face {
+    font-family: SFPro;
+    src: url(fonts/FontsFree-Net-SFProText-Medium-1.ttf);
+}
+
+#body{
+    font-family: SFPro;
+    display: block;
+}
+
+#actions_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 2%;
+    width: 16%;
+    align-items: left;
+    height: 200px;
+}
+
+#actions_title{
+    display: inline;
+    float: left;
+    margin-bottom: 3%;
+    margin-top: 0%;
+    font-weight: bold;
+    color: #21212cda;
+}
+
+#add_button{
+    float: left;
+    width: max-content;
+    font-size: 20px;
+    font-weight: bold;
+    color: #21212cda;
+    border-color: #292838da;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#add_button:hover{
+    background-color: #c5c3d3da;
+}
+
+#exclude_lease_button{
+    display: inline;
+    margin-top: 10px;
+    float: left;
+    width: max-content;
+    font-size: 17px;
+    font-weight: bold;
+    color: #21212cda;
+    border-color: #292838da;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#exclude_lease_button:hover{
+    background-color: #c5c3d3da;
+}
+
+#table_container{
+    display: flex;
+    align-items: stretch;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: 0%;
+    width: 80%;
+}
+
+#title_container{
+    display: flex;
+    margin-left: auto;
+    margin-right: 0%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 80%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#title{
+    color: #21212cda;
+    margin: 0%;
+}
+
+table {
+    font-size: 18px ;
+    overflow: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #292838da;
+    color: rgba(240, 240, 240, 0.884);
+}
+
+th, td {
+    border: 1px solid rgb(27, 25, 25);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: #e2e1e1;;
+    cursor: pointer;
+}

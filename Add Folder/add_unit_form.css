@@ -1,0 +1,87 @@
+@font-face {
+    font-family: SFPro;
+    src: url(fonts/FontsFree-Net-SFProText-Medium-1.ttf);
+}
+
+#title_container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 50%;
+}
+
+#title_container > p {
+    color: #21212cda;
+    margin: 0%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#form_container{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: #18181fda;
+}
+
+#details {
+    display: flex;
+    width: 60%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+#details > span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+input, select {
+    font-family: SFPro;
+    font-size: medium;
+}
+
+hr {
+    width: 100%;
+    align-self: center;
+    border:1px solid #e7e7e7da;
+    margin: 5%;
+}
+
+input[type=submit] {
+    border: 2px solid #292838da;
+    color: #292838da;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    width: auto;
+    height: fit-content;
+    align-self: flex-end;
+}
+
+input[type=submit]:hover {
+    background-color: #358b4f;
+    color: white;
+}
+

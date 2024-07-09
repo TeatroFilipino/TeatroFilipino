@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 230, 230);
+}
+
+form {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 35px;
+    border: 1px solid #e3e3e3;
+
+}
+
+
+
+.checkout-full-container {
+    width: 100%;
+    height: 100%;
+}
+
+.price-details {
+    display: block;
+    width: 100%;
+    height: 91%;
+}
+
+.price-container {
+    background-color: rgb(223, 217, 217);
+    padding: 8px;
+    border-radius: 17px;
+}
+
+.price-id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 42px;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+
+}
+
+.price-label {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    opacity: 50%;
+    margin-top: 0;
+}
+
+.payButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #0b41ca;
+    color: white;
+    border-radius: 15px;
+    font-size: 17.5px;
+    cursor: pointer;
+}
+
+.confirm-container {
+    display: none;
+    width: 300px;
+    height: 130px;
+    background-color: #d6d4d4; /* for visibility */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.confirm-container .buttons {
+    display: flex;
+}
+
+.confirm-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.confirm-container .buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+}
+
+.confirm-container .cancel-btn, .confirm-container .submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+}
+.confirm-container .cancel-btn {
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.confirm-container .submit-btn {
+    border: none;
+    color: white;
+    background-color: #0b41ca;
+    border-radius: 10px;
+}
+
+.confirm-btn {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}

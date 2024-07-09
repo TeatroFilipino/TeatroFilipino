@@ -1,0 +1,86 @@
+/* NAVBAR */
+@font-face {
+    font-family: SFPro;
+    src: url(fonts/FontsFree-Net-SFProText-Medium-1.ttf);
+}
+
+.header {
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #21212cda;
+}
+
+body {
+    font-family: SFPro;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Set the desired background color */
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #e4e4e4;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.navbar li:hover {
+    background-color: #292544a4;
+}
+
+.navbar a {
+    color: #222222;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    color: #e0e0e0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #292544a4;
+    color: #e0e0e0;
+}
+
+/* New style for the logo */
+.logo {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    height: 115px;
+    width: 140px;
+}
+

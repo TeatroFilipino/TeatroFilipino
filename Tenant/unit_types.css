@@ -1,0 +1,44 @@
+#title_container{
+    display: flex;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* heading */
+#title{
+    color: #21212cda;
+    margin: 0%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#table_container{
+    display: flex;
+    align-items: stretch;
+    justify-content: right;
+    margin: auto;
+    width: 80%;
+}
+
+table {
+    font-size: 25px;
+    width: 100%;
+    margin-top: 1%;
+    margin-right: 2%;
+    overflow: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #21212cda;
+    color: rgba(240, 240, 240, 0.884);
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 10px;
+}

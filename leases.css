@@ -1,0 +1,192 @@
+/* LEASE DASHBOARD */
+
+@font-face {
+    font-family: SFPro;
+    src: url(fonts/FontsFree-Net-SFProText-Medium-1.ttf);
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 0%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+/* actions container and action buttons */
+#actions_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    width: 17%;
+    min-height: 250px;
+    align-items: center;
+    margin-left: 1%;
+    background-color: rgb(238, 236, 236);
+}
+
+/* actions heading */
+#actions_title{
+    display: inline;
+    float: left;
+    font-weight: bold;
+    color: #21212cda;
+    margin: 10%;
+    margin-bottom: 2%;
+}
+
+#add_lease_button{
+    float: left;
+    width: 55%;
+    font-family: SFPro;
+    font-size: 20px;
+    font-weight: bold;
+    color: #21212cda;
+    border-color: #292838da;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#add_lease_button:hover{
+    background-color: #358b4f;
+    color:white;
+    cursor: pointer;
+}
+
+#exclude_button{
+    display: flex;
+    float: left;
+    width: 55%;
+    font-family: SFPro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #21212cda;
+    border-color: #292838da;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#exclude_button > i {
+    align-self: center;
+}
+
+#exclude_button > p {
+    margin: 0;
+}
+
+#exclude_button:hover{
+    background-color: #8b3535;
+    color:white;
+    cursor: pointer;
+}
+
+#include_button{
+    float: left;
+    width: 55%;
+    font-family: SFPro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #21212cda;
+    border-color: #292838da;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#include_button > i {
+    align-self: center;
+}
+
+#include_button > p {
+    margin: 0;
+}
+
+#include_button:hover{
+    background-color: #358b4f;
+    color:white;
+    cursor: pointer;
+}
+
+#delete_button{
+    float: left;
+    width: 90%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #21212cda;
+    border-color: #292838da;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10%;
+    margin-top: 3%;
+}
+
+#delete_button:hover{
+    background-color: #8b3535;
+    color:#e0e0e0da;
+    cursor: pointer;
+}
+
+/* heading container */
+#title_container{
+    display: flex;
+    margin-left: auto;
+    margin-right: 0%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 80%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* table title inside heading container */
+#title{
+    color: #21212cda;
+    margin: 0%;
+}
+
+/* table content */
+#table_container{
+    display: flex;
+    align-items: stretch;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: 0%;
+    width: 80%;
+}
+
+table {
+    font-size: 25px;
+    width: 100%;
+    margin-right: 2%;
+    overflow: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #21212cda;
+    color: rgba(240, 240, 240, 0.884);
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: #e2e1e1;;
+    cursor: pointer;
+}

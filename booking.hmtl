@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketing System</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 400px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        select, input {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <form action="booking_ticket.php" method="post">
+        <h2>Ticketing System</h2>
+
+        <label for="name">Name of Buyer:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="date">Choose Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Choose Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="package">Choose Package:</label>
+        <select id="package" name="package" required>
+            <option value="A0001">A0001</option>
+            <option value="B0002">B0002</option>
+            <option value="C0003">C0003</option>
+        </select>
+
+        <label for="tour_guide">Choose Tour Guide:</label>
+        <select id="tour_guide" name="tour_guide" required>
+            <option value="Meiji Brences">Meiji Brences</option>
+            <option value="Genesis Legaspi">Genesis Legaspi</option>
+            <option value="Rey Valenzuela">Rey Valenzuela</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

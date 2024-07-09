@@ -1,0 +1,135 @@
+@font-face {
+    font-family: SFPro;
+    src: url(fonts/FontsFree-Net-SFProText-Medium-1.ttf);
+}
+
+#title_container{
+    display: flex;
+    margin-left: auto;
+    margin-right: 0%;
+    margin-top: 2%;
+    width: 85%;
+}
+
+#title_container > p {
+    color: #21212cda;
+    margin: 0%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#form_container{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: 80%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: #18181fda;
+}
+
+#col1 {
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+#col1 > span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+#col2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+#owner_radio_buttons, #manager_radio_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: normal;
+}
+
+#owner_radio_buttons > span > label, #manager_radio_buttons > span > label {
+    font-weight: bold;
+}
+
+#select_owner, #select_manager{
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#add_new_owner, #add_new_manager{
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+#add_new_owner > span, #add_new_manager > span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+input, select {
+    font-family: SFPro;
+    font-size: medium;
+}
+
+hr {
+    width: 100%;
+    align-self: center;
+    border:1px solid #e7e7e7da;
+    margin: 5%;
+}
+
+input[type=submit] {
+    border: 2px solid #292838da;
+    color: #292838da;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    width: 25%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+input[type=submit]:hover {
+    background-color: #358b4f;
+    color: white;
+}

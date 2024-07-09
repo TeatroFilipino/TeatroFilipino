@@ -1,0 +1,250 @@
+/* ADD LEASE FORM */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+.box {
+  /* Container for the form */
+  width: 60%;
+  margin: 0 auto;
+  margin-left: calc(20% - 150px);
+  margin-right: calc(20% - 150px);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+#add_lease_header {
+  /* Header section of the form */
+  position: relative;
+  top: 20px;
+  text-align: left;
+  padding-left: 30px;
+  background-color: #f2f2f2;
+  padding: 3px;
+}
+
+#form {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  background-color: #b6b2b2;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+h1 {
+  /* Form title */
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  /* Form paragraphs */
+  margin-bottom: 10px;
+  color: #333;
+}
+
+label {
+  /* Form labels */
+  display: block;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  /* Form input fields */
+  width: 60%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+#existing[type="radio"] {
+  /* Form radio buttons */
+  margin-left: 150px;
+  margin-right: 5px;
+}
+
+#new[type="radio"] {
+  /* Form radio buttons */
+  margin-right: 5px;
+}
+
+small {
+  /* Small text style */
+  margin-left: 150px;
+  color: #757474;
+}
+
+input[type="submit"] {
+  /* Submit button style */
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+input[type="submit"]:hover {
+  /* Hover style for submit button */
+  background-color: #0056b3;
+}
+
+.error {
+  /* Error message style */
+  color: #f00;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Hide and Show Styles */
+#select_tenant,
+#add_new_tenant {
+  /* Sections to hide or show based on radio button selection */
+  display: none;
+}
+
+input[type="radio"]:checked ~ #select_tenant,
+input[type="radio"]:checked ~ #add_new_tenant {
+  /* Show selected section */
+  display: grid;
+}
+
+/* Customizations */
+.box {
+  /* Customizations for the box container */
+  border: 1px solid #ddd;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* Error Message */
+.error {
+  /* Error message style */
+  font-size: 14px;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+  /* Radio button style */
+  margin-right: 10px;
+}
+
+/* Form Fields */
+input[type="text"],
+input[type="number"],
+select {
+  /* Form field transition and focus styles */
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+  /* Focus style for form fields */
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Date Input */
+#start_of_lease,
+#end_of_lease {
+  /* Date input field style */
+  width: 60%;
+}
+
+/* Existing Tenant Select */
+#select_tenant select {
+  /* Select field style */
+  width: 60%;
+}
+
+#select_tenant label {
+  /* Label style for select field */
+  margin-bottom: 5px;
+}
+
+/* New Tenant Form */
+#add_new_tenant input[type="number"] {
+  /* Number input field style */
+  background-color: #f9f9f9;
+}
+
+#add_new_tenant input[type="text"],
+#add_new_tenant input[type="number"],
+#add_new_tenant select {
+  /* Input field style for new tenant form */
+  width: 60%;
+}
+
+#add_new_tenant label {
+  /* Label style for new tenant form */
+  margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px width */
+  .box {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin-bottom: 8px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input[type="submit"] {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px width */
+  input[type="text"],
+  input[type="number"],
+  select {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  input[type="submit"] {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  .error {
+    font-size: 12px;
+  }
+}

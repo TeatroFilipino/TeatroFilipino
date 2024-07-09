@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-SemiBold.ttf') format('truetype');
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+}
+
+body{
+    font-weight: 600;
+    text-align: center;
+    font-size: 19px;
+    background-color: rgb(232, 230, 230);
+}
+
+.main-head {
+    color: #0D50FF;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form, .dateContainer {
+    padding: 40px 50px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 500px;
+    background-color: #b4c8fc;
+    /* background-color: rgb(243, 241, 241); */
+    border-radius: 45px;
+    border: 1px solid #b5c9fb;
+}
+.dateContainer {
+    background-color: transparent;
+    border:none;
+}
+
+
+form .input{
+    background-color: #FFFFFF;
+    width: 49%;
+    height: 55px;
+    margin-bottom: 1px;
+    border-radius: 8px;
+    box-shadow: 1 1px 1px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s; 
+}
+
+form .input label{
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-size: 13px;
+    color: rgb(128, 128, 128);
+}
+
+form .input input, select {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+#residency, #status {
+    width: 100%;
+}
+
+.user-type, .terms {
+    text-align: left;
+}
+
+.user-type p, .terms p {
+    font-size: 15px;
+    opacity: 67%;
+    margin-bottom: 4px;
+}
+
+.user-type .type, .terms label {
+    display: inline;
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: rgb(61, 61, 61);
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.btn-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #002ea3;
+    text-decoration: underline;
+}
+
+.actionBtn-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.cancel-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #002ea3;
+    cursor: pointer;
+}
+
+
+.appointment-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #0b41ca;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 164px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.dateContainer {
+    padding:10px;
+    width: 80%;
+}
+
+.calendar-container {
+    width: 64%;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.appointmentDetails-container {
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.calendar-table{
+    text-align: center;
+}
+
+.calendar-table th,.calendar-table td {
+    width: 105px;
+    height: 50px;
+}
+
+.calendar-table td {
+    height: 55px;
+    font-size: 20px;
+}
+
+.selected {
+    background-color: #002ea3;
+    color: white;
+}
+
+.no-slot {
+    background-color: rgb(158, 0, 0);
+    color: white;
+}
+.no-slot::hover {
+    background-color: rgb(158, 0, 0);
+}
+
+.future-date:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer; 
+}
+.selected:hover {
+    background-color: #002ea3;
+}
+.appointmentDetails-container h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 70%;
+    display: flex;
+    width: 100%;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(196, 193, 193);
+}
+
+.appointmentDetails-container span {
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.details-appointment .span-value, 
+.details-appointment .location {
+    font-weight: bold;
+} 
+
+.details-appointment {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+}
+
+.details-appointment .location {
+    font-size: 15px;
+}
+
+.appointmentDetails-container .container {
+    height: 90%;
+}
+
+.checkout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    background-color:#0b41ca;
+    color: rgb(253, 248, 248);
+    height: 40px;
+    border-radius: 5px;
+}
+

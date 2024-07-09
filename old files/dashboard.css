@@ -1,0 +1,125 @@
+/* DASHBOARD */
+
+@font-face {
+    font-family: SFPro;
+    src: url(fonts/FontsFree-Net-SFProText-Medium-1.ttf);
+}
+
+body {
+    overflow: scroll;
+    font-family: SFPro;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Set the desired background color */
+}
+
+/* New styles for the layout */
+.container {
+    display: flex;
+    padding:20px;
+    height: 750px;
+}
+
+.container > a {
+    display: flex;
+    height: 720px;
+    align-items: stretch;
+}
+
+.box{
+    width: 100%;
+    max-width: 450px;
+    word-wrap: break-word;
+    padding-top: 400px;
+    margin: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 5px; /* Added rounded corners */
+}
+
+.box:hover, .hyperlink:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* background images */
+#units{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(46, 23, 42)),url('images/units.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#properties{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(46, 23, 42)),url('images/properties.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#leases{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(46, 23, 42)),url('images/leases.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#persons{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(46, 23, 42)),url('images/persons.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* text */
+
+.box h3 {
+    color: #f0f0f0;
+    font-size: 35px;
+}
+
+.box p {
+    color: #f0f0f0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* for hover effects */
+#units:hover{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(117, 36, 104)),url('images/units.png');
+}
+
+#properties:hover{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(117, 36, 104)),url('images/properties.png');
+}
+
+#leases:hover{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(117, 36, 104)),url('images/leases.png');
+}
+
+#persons:hover{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(117, 36, 104)),url('images/persons.png');
+}
+
+
+/* to remove line from hyperlink */
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/* Styles for About Us section */
+#about-section {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+  
+#about-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+  
+#about-section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}

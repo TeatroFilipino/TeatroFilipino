@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'nunito', sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background-image: url(Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+img{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 150px;
+    height: 150px;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+.box{
+    width: 450px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.79);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.494),
+                -2px -0px 15px 2px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+.wrapper{
+    position: absolute;
+    width: 455px;
+    height: 500px;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.53);
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.115),
+                -2px -0px 15px 2px rgba(0,0,0,0.054);
+    transform: rotate(5deg);
+}
+.header{
+    margin-bottom: 50px;
+}
+.header header{
+    display: flex;
+    justify-content: right;
+}
+header img{
+    width: 25px;
+}
+.header p{
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    position: relative;
+}
+i{
+    font-size: 22px;
+    position: absolute;
+    top: 35px;
+    right: 12px;
+    color: #595b5e;
+}
+input{
+    height: 40px;
+    border: 2px solid rgb(153,157,158);
+    border-radius: 7px;
+    margin: 7px 0;
+    outline: none;
+}
+.input-field{
+    font-weight: 500;
+    padding: 0 10px;
+    font-size: 17px;
+    color: #333;
+    background: transparent;
+    transition: all .3s ease-in-out;
+}
+.input-field:focus{
+    border:2px solid rgb(89,53,180);
+}
+.input-field:focus ~ i{
+    color: rgb(89,53,180);
+}
+.input-submit {
+    margin-top: 20px;
+    background: #f65f0d;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    height: 40px; /* Adjusted height to match the login button */
+    border-radius: 7px; /* Added border-radius for consistency */
+    font-size: 17px; /* Adjusted font size to match the login button */
+}
+.input-submit:hover{
+    background: #122b71;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.bottom span a{
+    color: #727374;
+    text-decoration: none;
+}
+.bottom span a:hover{
+    text-decoration: underline;
+}

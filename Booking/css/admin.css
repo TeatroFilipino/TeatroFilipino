@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.side-bar{
+    width: 20%;
+    height: 100%;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.side-bar .header, .main-container .header {
+    width: 100%;
+    height: 90px;
+    background-color: #4c60da;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.side-bar .header img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.side-bar .header .head-container {
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+    width: 100%;
+}
+
+.dashboard-nav {
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid #d5d2d2;
+}
+
+.side-bar .dashboard-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.side-bar .feature-header {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 5px
+}
+
+.side-bar .feature-header span {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: 40%;
+}
+
+.side-bar .feature-nav {
+    width: 100%;
+    height: 60px;
+}
+
+.side-bar .feature-nav a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.side-bar a:hover {
+    background-color: rgb(222, 221, 221);
+}
+
+.appointment-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.appointment-nav ul {
+    list-style-type: none;
+    width: 80%;
+}
+
+.appointment-nav a{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    padding-left: 20px;
+    height: 45px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    width: 98%;
+}
+
+.main-container {
+    width: 80%;
+    height: 100%;
+}
+
+.main-container .header {
+    background-color: #6777ef;
+}
+
+.main-container .form {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 70vh;
+    width: 80%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.main-container .form h2 {
+    opacity: 65%;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.date-selection {
+    display: flex;
+    
+}

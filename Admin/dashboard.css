@@ -1,0 +1,114 @@
+/* DASHBOARD */
+
+body {
+    overflow: scroll;
+    font-family: SFPro;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Set the desired background color */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 750px;
+    margin: 20px;
+}
+
+.box {
+    width: 100%;
+    max-width: 450px;
+    word-wrap: break-word;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Background colors and images */
+#book {
+    background-color: #66c0ff; /* Set the desired background color */
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(255, 182, 37)), url('booking.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#site {
+    background-color: #ffb266; /* Set the desired background color */
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(255, 182, 37)), url('site.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#itinerary {
+    background-color: #66ff99; /* Set the desired background color */
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(255, 182, 37)), url('itinerary.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Text styles */
+.box h3,
+.box p {
+    color: #080808;
+}
+
+.box h3 {
+    font-size: 50px;
+}
+
+.box p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* for hover effects */
+#book:hover{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(200, 103, 28)),url('booking.png');
+}
+
+#site:hover{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(200, 103, 28)),url('site.png');
+}
+
+#itinerary:hover{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(200, 103, 28)),url('itinerary.png');
+}
+
+/* Remove underline from hyperlinks */
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+/* Styles for About Us section */
+#about-section {
+    background-color: #dfdfdfc0;
+    padding: 40px;
+    text-align: center;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+    color: #1f1f1f;
+    font-size: 24px;
+}
+
+#about-section p {
+    color: #1f1f1f;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+ /* New style for the logo */
+ .logo {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 150px;
+    height: 150px;
+    margin-top: -20px;
+  } 

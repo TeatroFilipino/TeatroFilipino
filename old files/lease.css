@@ -1,0 +1,118 @@
+/* LEASE CONTRACT DASHBOARD */
+
+#lease_header {
+    position: relative;
+    top: 20px;
+    text-align: left;
+    padding-left: 30px;
+    background-color: #abaaaaaa; /* Set the background color */
+    padding: 3px; /* Add padding to the header */
+}
+
+table {
+    position: relative;
+    margin-right: 100px;
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: 250px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+#search-bar {
+    position: relative;
+    top: 50px;
+    margin-right: 85px;
+    text-align: right;
+}
+#search-bar input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    box-sizing: border-box;
+}
+#search-bar input[type="submit"] {
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#search-bar input[type="submit"]:hover {
+    background-color: #555;
+}
+#button_header {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    right: 10px;
+    display: flex;
+    padding: 0px;
+    height: 0px;
+}
+
+#add-lease-button {
+    position: relative;
+    top: 110px;
+    display: block;
+    margin-left: 40px;
+    padding: 10px 20px;
+    background-color: #d3cdcd;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+#add-lease-button:hover {
+    background-color: #45a049;
+}
+
+#exclude_button {
+    position: relative;
+    top: 120px;
+    display: block;
+    margin-left: 40px;
+    padding: 10px 20px;
+    background-color: #d3cdcd;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+#exclude_button:hover {
+    background-color: #45a049;
+}
+
+#delete-lease-button {
+    position: relative;
+    top: 130px;
+    display: block;
+    margin-left: 40px;
+    padding: 10px 20px;
+    background-color: #d3cdcd;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+#delete-lease-button:hover {
+    background-color: #fd2626;
+}

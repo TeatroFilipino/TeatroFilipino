@@ -1,0 +1,254 @@
+
+/* NAVBAR */
+@font-face {
+  font-family: SFPro;
+  font-weight: bold;
+  src: url(fonts/FontsFree-Net-SFProText-Medium-1.ttf);
+}
+
+body {
+  font-family: SFPro;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  justify-content: center;
+  background-image: url(Background1.png);
+  background-size: cover;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #21212cda;
+  margin-top: 20px;
+  font-weight: bold;
+  width: 1000px; 
+  height: auto;
+}
+
+.logo-header {
+  width: 1000px; 
+  height: auto;
+}
+
+.navbar {
+  background-color: #e4e4e4;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end; /* Change this line */
+  margin-top: 50px; 
+}
+
+.navbar ul {
+  margin-top: 100px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.navbar li {
+  padding: 10px;
+}
+
+.navbar li:hover {
+  background-color: #292544a4;
+}
+
+.navbar a {
+  color: #222222;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  color: #262626;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(254, 254, 254, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #292544a4;
+  color: #e0e0e0;
+}
+
+/* New style for the logo */
+.logo {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  height: 115px;
+  width: 140px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  height: 80vh; /* Set a fixed height */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.search-container {
+  margin-top: 90px;
+  text-align: center;
+}
+
+
+.search-box {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.search-box {
+  position: relative;
+  display: inline-block;
+}
+
+
+input[type="text"] {
+  padding: 10px 30px; /* Increased padding to accommodate the icon */
+  width: 400px; /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+
+
+input[type="text"] {
+  padding: 10px;
+  width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.box {
+  width: 230px;
+  height: 400px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #bd7b7b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid black;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+
+.box:hover {
+  transform: scale(1.05);
+}
+  .food {
+    background-image: url(Food\ BG.png);
+    background-size:cover ;
+  }
+  
+  .historical-sites {
+    background-image: url(Food\ BG.png);
+    background-size:cover ;
+  }
+  
+  .museum {
+    background-image: url(Food\ BG.png);
+    background-size:cover ;
+  }
+  
+  .other-activities {
+    background-image: url(Food\ BG.png);
+    background-size:cover ;
+  }
+  
+  .foods-menu {
+    background-image: url(Food\ BG.png);
+    background-size:cover ;
+  }
+
+  .foods-beverages {
+    background-image: url(Food\ BG.png);
+    background-size:cover ;
+  }
+
+  .Churches {
+    background-image: url(Food\ BG.png);
+    background-size:cover ;
+  }
+
+  .Schools {
+    background-image: url(Food\ BG.png);
+    background-size:cover ;
+  }
+
+  .Sites {
+    background-image: url(Food\ BG.png);
+    background-size:cover ;
+  }
+  
+  .Near-intra {
+    background-color: #FFD600;
+  }
+
+  .Inside-intra {
+    background-color: #FFD600;
+  }
+
+  .Tour-Guide {
+    background-color: #FFD600;
+  }
+
+  .Review {
+    background-color: #FFD600;
+  } 
+
+
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+  .box h2 {
+    font-weight: 10000;
+    color: black;
+}
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* New style for the logo */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  width: 150px;
+  height: 150px;
+  margin-top: -20px;
+} 
+
